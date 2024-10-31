@@ -1,0 +1,87 @@
+.reg_container {
+    width: 100%;
+    height: 606px;
+    display: flex;
+
+}
+
+.reg_heading {
+    width: 157px;
+    height: 44px;
+    text-align: left;
+    font: normal normal bold 34px/60px Montserrat;
+    letter-spacing: 1.28px;
+    color: #5861AE;
+    text-transform: uppercase;
+    padding-left: 120px;
+}
+
+.reg_left {
+    width: 35%;
+    height: 100%;
+    text-align: center;
+}
+
+.reg_laundry_service {
+    text-align: left;
+    font: normal normal 900 52px/80px Montserrat;
+    letter-spacing: 2.48px;
+    color: #5861AE;
+    text-transform: capitalize;
+    padding: 0px 60px;
+}
+
+.reg_left_txt {
+    text-align: left;
+    font: normal normal normal 20px/32px Montserrat;
+    letter-spacing: 0.8px;
+    color: #565657;
+    text-transform: capitalize;
+    padding: 0px 60px;
+
+}
+
+.reg_left-txt2 {
+    text-align: left;
+    font: normal normal normal 20px/32px Montserrat;
+    letter-spacing: 0.8px;
+    color: #565657;
+    text-transform: capitalize;
+    padding: 0px 60px;
+
+}
+
+.reg_right {
+    background: #F8F9FF 0% 0% no-repeat padding-box;
+}
+
+.reg_reg-btn {
+    display: inline-block;
+    width: 150px;
+    height: 50px;
+    border: 2px solid #5861AE;
+    border-radius: 4px;
+    line-height: 50px;
+    text-decoration: none;
+    color: #5861AE;
+}
+
+
+.btn-register {
+    width: 150px;
+    height: 50px;
+    background: #4552C1 0% 0% no-repeat padding-box;
+    border-radius: 4px;
+    border: none;
+    text-align: center;
+    font: normal normal bold 16px/20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 0.3px;
+    color: #FFFFFF;
+    margin: 60px 0px 0px 210px;
+    cursor: pointer;
+    text-decoration: none;
+    position: absolute;
+    top: 530px;
+    left: 600px;
+}

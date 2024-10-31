@@ -1,0 +1,17 @@
+.sidebar{
+    width: 57px;
+    background-color: #5861AE;
+    display: flex;
+    flex-direction: column;
+}
+
+span{
+    height: 47px;
+    width: 100%;
+}
+.sidebar_pic{
+    padding: 15px;
+}
+.selected{
+    background-color: aliceblue;
+}

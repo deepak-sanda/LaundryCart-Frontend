@@ -1,0 +1,14 @@
+.footerTwo {
+    height: 50px;
+    width: 100%;
+    background: #182838 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+
+}
+
+.footerTwo_txt {
+    text-align: center;
+    font: normal normal normal 12px/24px Montserrat;
+    letter-spacing: 0.12px;
+    color: #FFFFFF;
+}

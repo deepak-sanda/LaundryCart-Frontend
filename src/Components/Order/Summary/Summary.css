@@ -1,0 +1,138 @@
+/* *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+} */
+
+.modal_background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: #000000;
+    opacity: 29%;
+}
+
+.modal_content {
+    position: fixed;
+    top: 0px;
+    left: 40%;
+    height: 100%;
+    width: 60%;
+    background-color: #fff;
+    overflow-y: scroll;
+
+}
+
+.summary_header {
+    background-color: #5861AE;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px 0px 20px;
+    text-align: left;
+    font: normal normal 600 22px/20px Open Sans;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+}
+
+.close_btn {
+    height: 100%;
+    width: 30px;
+    background-color: transparent;
+    color: #fff;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    display: inline;
+    line-height: 50px;
+    padding-top: 5px;
+    cursor: pointer;
+}
+
+
+.store_address_section {
+    height: 96px;
+    width: 100%;
+    background-color: #F4F9FF;
+    display: flex;
+    justify-content: space-around;
+}
+
+.address_ip {
+    height: 40px;
+    width: 203px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1.5px solid #1b1b1c1a;
+    background-color: transparent;
+    font-family: Montserrat;
+    cursor: pointer;
+    outline: none;
+    margin: 10px 30px;
+    cursor: pointer;
+}
+
+.summary_footer {
+    height: 70px;
+    width: 100%;
+    background: #F4F4F4 0% 0% no-repeat padding-box;
+    box-shadow: 0px -3px 6px #00000015;
+
+}
+
+.confirm_btn {
+    width: 107px;
+    height: 32px;
+    border-radius: 4px;
+    font: normal normal 600 14px/48px Open Sans;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 0px;
+    color: #ffffff;
+    background: #5861AE 0% 0% no-repeat padding-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 15px;
+    left: 655px;
+    cursor: pointer;
+
+}
+
+.address_section {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+}
+
+.addressBox {
+    width: 180px;
+    height: 75px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border: 1px solid #5861AE;
+    border-radius: 4px;
+    margin: 5px 30px;
+    cursor: pointer;
+}
+
+.cancel_order{
+    width: 107px;
+    height: 32px;
+    border-radius: 4px;
+    font: normal normal 600 14px/48px Open Sans;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 0px;
+    color: #ffffff;
+    background: #EB1717 0% 0% no-repeat padding-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 15px;
+    left: 655px;
+    cursor: pointer;
+}
